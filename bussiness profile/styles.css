@@ -49,13 +49,16 @@
 }
 
 .github{
-    background: #000014;
+    background: #212529;
+    box-shadow: 0 0 0 2px #343a40, 0 0 0 5px #212529;
 }
 .linkedin{
-    background: #1a5b8e;
+    background: #023e8a;
+     box-shadow: 0 0 0 2px #0077b6, 0 0 0 5px #023e8a;
 }
 .email{
-    background: #006c38;
+    background: #4f772d;
+    box-shadow: 0 0 0 2px #90a955, 0 0 0 5px #4f772d;
 }
 .github:hover, .linkedin:hover, .email:hover{
     transform: scale(1.1);
