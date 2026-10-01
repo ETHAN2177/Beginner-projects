@@ -1,0 +1,68 @@
+.card{
+    margin: auto;
+    width: 320px;
+    background: #FDF0D5;
+    height: 450px;
+    border-radius: 20px;
+    border: solid 1px black;
+    box-shadow: 0 10px 25px;
+    padding: 20px;
+}
+.profile{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid black;
+    display: block;
+    margin: 20px auto 10px auto;
+
+}
+
+.name, .title, .detils{
+    text-align: center;
+}
+.name{
+    font-size: medium;
+    font-style: bold;
+}
+.title{
+    font-size: medium;
+    font-style: italic;
+}
+.detils{
+    font-size: large;
+}
+
+.github, .linkedin, .email{
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.github i, .linkedin i, .email i{
+    margin-right: 5px;
+}
+
+.github{
+    background: #000014;
+}
+.linkedin{
+    background: #1a5b8e;
+}
+.email{
+    background: #006c38;
+}
+.github:hover, .linkedin:hover, .email:hover{
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
